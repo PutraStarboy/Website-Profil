@@ -128,7 +128,7 @@ document.getElementById('secretBtn').addEventListener('click', () => {
   const input = prompt("Masukkan kata kunci Biodata Aura:");
   if (input === null) return; 
   if (input === password) {
-    window.location.href = "biodata.html"; 
+    window.location.href = "index2.html"; 
   } else {
     alert("Kata kunci salah! Coba lagi.");
   }
