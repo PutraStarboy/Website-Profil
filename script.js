@@ -125,7 +125,7 @@ document.head.insertAdjacentHTML("beforeend", `
 // Fungsi tombol biodata aura
 document.getElementById('secretBtn').addEventListener('click', () => {
   const password = "712009"; 
-  const input = prompt("Masukkan kata kunci Biodata Aura:");
+  const input = prompt("Masukkan kata kunci:");
   if (input === null) return; 
   if (input === password) {
     window.location.href = "index2.html"; 
