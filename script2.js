@@ -43,7 +43,7 @@
     function goToSecretPage() {
       const password = prompt("Masukkan kata kunci rahasia:");
       if (password === "352009") {
-        window.location.href = "biodata3.html";
+        window.location.href = "index.html";
       } else if (password !== null) {
         alert("Kata kunci salah!");
       }
