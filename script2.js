@@ -41,7 +41,7 @@
     }
 
     function goToSecretPage() {
-      const password = prompt("Masukkan kata kunci rahasia:");
+      const password = prompt("Masukkan kata kunci:");
       if (password === "352009") {
         window.location.href = "index.html";
       } else if (password !== null) {
